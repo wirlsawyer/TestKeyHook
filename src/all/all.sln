@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keyhook", "..\keyhook\keyhook\keyhook.vcproj", "{333AADDE-9A74-412F-941C-A75333FB0FD5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keyhookDemo", "..\keyhookDemo\keyhookDemo\keyhookDemo.vcproj", "{BF2A8FDD-17DE-4EF8-87B1-7FA5DDBDDC0D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{333AADDE-9A74-412F-941C-A75333FB0FD5} = {333AADDE-9A74-412F-941C-A75333FB0FD5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{333AADDE-9A74-412F-941C-A75333FB0FD5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{333AADDE-9A74-412F-941C-A75333FB0FD5}.Debug|Win32.Build.0 = Debug|Win32
+		{333AADDE-9A74-412F-941C-A75333FB0FD5}.Release|Win32.ActiveCfg = Release|Win32
+		{333AADDE-9A74-412F-941C-A75333FB0FD5}.Release|Win32.Build.0 = Release|Win32
+		{BF2A8FDD-17DE-4EF8-87B1-7FA5DDBDDC0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF2A8FDD-17DE-4EF8-87B1-7FA5DDBDDC0D}.Debug|Win32.Build.0 = Debug|Win32
+		{BF2A8FDD-17DE-4EF8-87B1-7FA5DDBDDC0D}.Release|Win32.ActiveCfg = Release|Win32
+		{BF2A8FDD-17DE-4EF8-87B1-7FA5DDBDDC0D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

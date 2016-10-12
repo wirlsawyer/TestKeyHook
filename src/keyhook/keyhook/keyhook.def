@@ -1,0 +1,8 @@
+LIBRARY	"keyhook"
+
+EXPORTS
+
+	InitKeyboardHook		@1
+	UninstallKeyHook		@2
+	SetHotKey				@3
+	ClearHotKey				@4
